@@ -9,10 +9,6 @@ import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.MongoClient;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public static void main(String[] args) throws UnknownHostException {
 
@@ -44,7 +40,7 @@ public class App {
 		System.out.println("tables:" + table);
 
 		/*
-		 * Save Example Begin
+		 * Insert Example Begin
 		 */
 
 		DBCollection tableInsert = db.getCollection("mesut");
@@ -56,7 +52,7 @@ public class App {
 		tableInsert.insert(documentInsert);
 
 		/*
-		 * Save Example End
+		 * Insert Example End
 		 */
 
 		/*
