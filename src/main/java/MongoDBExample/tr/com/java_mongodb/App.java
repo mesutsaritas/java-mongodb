@@ -19,6 +19,7 @@ public class App {
 		 * authentication is required Begin
 		 */
 
+		
 		// boolean authentication = db.authenticate("personal",
 		// "123456".toCharArray());
 
